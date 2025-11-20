@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(105, 103, 103);
+}
+.container-fluid{
+    height: 100px;
+}
+.navbar-brand{
+    font-size: 40px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 1);
+    border-radius: 20px;
+    width: 20rem;
+    text-align: center;
+}
+.navbar-nav{
+    font-size: 30px;
+    gap: 30px;
+    
+}
+.nav-link{
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 4);
+    width: 10rem;
+    text-align: center;
+    color: white;
+    transition: all 1s ease;
+}
+.nav-link:hover{
+    background-color: rgb(92, 92, 92);
+}
+.bg-light{
+    background-color: gray;
+    text-align: center;
+    height: 20vh;
+    border-radius: 40px;
+}
+.image-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+.image-grid img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: 1px 5px 25px rgb(255, 255, 255);
+}
+.text-center{
+    font-size: 40px;
+    font-weight: 1000;
+}
+#kontakt{
+        box-shadow: 1px 5px 25px rgb(255, 255, 255);
+            border-radius: 50px;
+}
