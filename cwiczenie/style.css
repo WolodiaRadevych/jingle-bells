@@ -55,3 +55,6 @@ body{
         box-shadow: 1px 5px 25px rgb(255, 255, 255);
             border-radius: 50px;
 }
+.card {
+    border-radius: 40px ;
+}
